@@ -22,6 +22,6 @@ input.each do |value|
   end
 end
 
-puts 'Not Found..'
+puts "#{target} is not found.."
 puts "Number of searches: #{num_search}"
 exit 1
