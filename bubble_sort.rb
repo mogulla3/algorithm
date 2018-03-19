@@ -32,7 +32,7 @@ loop do
     end
   end
 
-  break if proc_cnt <= 0
+  break if proc_cnt <= 0 # 一度も入れ替えを実行していなければ終了
   round += 1
 end
 
