@@ -1,13 +1,9 @@
+values = gets.split(" ").map(&:to_i)
 
-ary = [12,4567,124,54,75,12345,343,45,1245,266666]
-i = 0
-max = ary[0]
-
-while ary[i] do
-  if max < ary[i]
-    max = ary[i]
-  end
-  i += 1
+max = nil
+values.each do |value|
+  max ||= value
+  max = value if value > max
 end
 
-puts "MAXVALUE => #{max}"
+puts "max: #{max}"
