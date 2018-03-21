@@ -1,4 +1,1 @@
-algorithm
-=========
-
-アルゴリズムの練習
+algorithm practice
