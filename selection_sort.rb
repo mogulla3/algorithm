@@ -1,4 +1,4 @@
-# $ echo 4 2 3 1 | ruby bubble_sort.rb
+# $ echo 4 2 3 1 | ruby selection_sort.rb
 # 1 2 3 4
 #
 # $ echo 4 2 1 3 | DEBUG=1 ruby selection_sort.rb
