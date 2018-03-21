@@ -2,10 +2,9 @@
 # 4
 values = gets.split(" ")
 count = 0
-i = 0
-while values[i]
+
+values.each do |value|
   count += 1
-  i += 1
 end
 
 puts count
