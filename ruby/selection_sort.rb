@@ -20,10 +20,8 @@ loop do
   min = nil
   min_idx = nil
   (0 + left_end).upto(numbers.size - 1) do |n|
-    unless min
-      min = numbers[n]
-      min_idx = n
-    end
+    min ||= numbers[n]
+    min_idx ||= n
 
     if numbers[n] < min
       min = numbers[n]
